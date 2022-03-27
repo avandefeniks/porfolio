@@ -52,7 +52,7 @@ header nav ul li a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end; 
-    background-image: url(../images/BeachCropped.jpg);
+    background-image: url(../images/beachCropped.jpg);
     background-size: cover; 
     background-position:top;
     margin-bottom: 15px;
