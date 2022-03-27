@@ -1,6 +1,6 @@
 :root {
-    --header-background: #2557b0; 
-    --header-text: #7cbb1e;
+    --background-sideBar: #2557b0; 
+    --text-borders: #e9ec0e;
 }
 
 * {
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--header-background);
+    background-color: var(--background-sideBar);
 }
 
 header h1 {
@@ -26,7 +26,7 @@ header h1 {
 }
 
 header a {
-    color: var(--header-text);
+    color: var(--text-borders);
     text-decoration: none;
 }
 
@@ -42,27 +42,97 @@ header nav ul {
     font-size: 20px;
   }
 
-  header nav ul li a {
+header nav ul li a {
       padding: 10px 20px;
-  }
+}
 
-  .hero {
-    height: 350px;
+.hero {
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    align-self: flex-start; 
-    background-image: url(../images/beachCropped.jpg);
+    align-items: flex-end; 
+    background-image: url(../images/BeachCropped.jpg);
     background-size: cover; 
     background-position:top;
-  }
+    margin-bottom: 15px;
+}
 
-  .subtitle {
-      color: var(--header-text);
-      background: var(--header-background);
-      padding: 15px 30px;
+.subtitle {
+      color: var(--text-borders);
+      background: var(--background-sideBar);
+      padding: 10px 20px;
       margin: 15px 30px;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: bolder;
-  }
+}
+
+.about-me {
+      display: flex;
+      flex-wrap: wrap;      
+}
+
+.about-me-sidebar {
+      flex: 0 1 10%;
+      flex-wrap: wrap;
+      border-right: 3px solid var(--background-sideBar);
+      margin-bottom: 10px;
+}
+
+.about-me-text {
+    color: var(--background-sideBar);
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.about-me-paragraph {
+    display: flex;
+    flex: 0 1 85%;
+    flex-wrap: wrap;
+    margin: 0 0 10px 10px;
+}
+
+.about-me-paragraph p {
+    padding: 3px;
+}
+
+.work {
+      display: flex;
+}
+
+.work-sidebar {
+    flex: 0 1 10%;
+    flex-wrap: wrap;
+    border-right: 3px solid var(--background-sideBar);
+    margin-right: 10px;
+}
+
+.work-sidebar-text {
+    color: var(--background-sideBar);
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0 10px 0 0; 
+}
+
+.main-img {
+    height: 440px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../images/RunBuddy.jpg);
+    background-size: cover;
+    border: 5px solid var(--background-sideBar)
+}
+
+.main-img-text {
+    margin: 0 0 20px 0;
+    padding: 10px 10px;
+    color: var(--text-borders);
+    background-color: var(--background-sideBar);
+    font-size: 20px;
+    font-weight: bold;
+}
