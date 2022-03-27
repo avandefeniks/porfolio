@@ -1,3 +1,8 @@
+:root {
+    --header-background: #2557b0; 
+    --header-text: #7cbb1e;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +15,10 @@ body {
 
 header {
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--header-background);
 }
 
 header h1 {
@@ -17,5 +26,43 @@ header h1 {
 }
 
 header a {
+    color: var(--header-text);
     text-decoration: none;
 }
+
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  header nav ul li a {
+      padding: 10px 20px;
+  }
+
+  .hero {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-start; 
+    background-image: url(../images/beachCropped.jpg);
+    background-size: cover; 
+    background-position:top;
+  }
+
+  .subtitle {
+      color: var(--header-text);
+      background: var(--header-background);
+      padding: 15px 30px;
+      margin: 15px 30px;
+      font-size: 30px;
+      font-weight: bolder;
+  }
