@@ -1,6 +1,6 @@
 :root {
-    --background-sideBar: #2557b0; 
-    --text-borders: #e9ec0e;
+    --background-sideBar-borders: #2557b0; 
+    --text: #e9ec0e;
 }
 
 * {
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--background-sideBar);
+    background-color: var(--background-sideBar-borders);
 }
 
 header h1 {
@@ -26,7 +26,7 @@ header h1 {
 }
 
 header a {
-    color: var(--text-borders);
+    color: var(--text);
     text-decoration: none;
 }
 
@@ -59,15 +59,15 @@ header nav ul li a {
 }
 
 .subtitle {
-      color: var(--text-borders);
-      background: var(--background-sideBar);
+      color: var(--text);
+      background: var(--background-sideBar-borders);
       padding: 10px 20px;
       margin: 15px 30px;
       font-size: 20px;
       font-weight: bolder;
 }
 
-.about-me {
+.content {
       display: flex;
       flex-wrap: wrap;      
 }
@@ -75,12 +75,12 @@ header nav ul li a {
 .about-me-sidebar {
       flex: 0 1 10%;
       flex-wrap: wrap;
-      border-right: 3px solid var(--background-sideBar);
+      border-right: 3px solid var(--background-sideBar-borders);
       margin-bottom: 10px;
 }
 
 .about-me-text {
-    color: var(--background-sideBar);
+    color: var(--background-sideBar-borders);
     font-size: 32px;
     font-weight: bolder;
     text-align: right;
@@ -98,41 +98,137 @@ header nav ul li a {
     padding: 3px;
 }
 
-.work {
-      display: flex;
-}
-
 .work-sidebar {
     flex: 0 1 10%;
     flex-wrap: wrap;
-    border-right: 3px solid var(--background-sideBar);
+    border-right: 3px solid var(--background-sideBar-borders);
     margin-right: 10px;
 }
 
 .work-sidebar-text {
-    color: var(--background-sideBar);
+    color: var(--background-sideBar-borders);
     font-size: 32px;
     font-weight: bolder;
     text-align: right;
     margin: 0 10px 0 0; 
 }
 
+
+/* projects main image */
 .main-img {
     height: 440px;
-    width: 80%;
+    width: 980px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     background-image: url(../images/RunBuddy.jpg);
     background-size: cover;
-    border: 5px solid var(--background-sideBar)
+    border: 5px solid var(--background-sideBar-borders);
+    margin-bottom: 10px;
 }
 
 .main-img-text {
     margin: 0 0 20px 0;
     padding: 10px 10px;
-    color: var(--text-borders);
-    background-color: var(--background-sideBar);
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* project cards */
+.project-cards {
+    width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+} 
+
+.project1 {
+    height: 110px;
+    width: 484px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../images/PlaceHolder.jpg);
+    background-size: cover;
+    border: 5px solid var(--background-sideBar-borders);
+    margin-right: 5px;
+
+}
+
+.project1-text {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project2 {
+    height: 110px;
+    width: 484px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../images/PlaceHolder.jpg);
+    background-size: cover;
+    border: 5px solid var(--background-sideBar-borders);
+    margin: 0 0 10px 5px;
+
+}
+
+.project2-text {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.project3 {
+    height: 110px;
+    width: 484px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../images/PlaceHolder.jpg);
+    background-size: cover;
+    border: 5px solid var(--background-sideBar-borders);
+    margin: 0 5px 10px 0;
+
+}
+
+.project3-text {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project4 {
+    height: 110px;
+    width: 484px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../images/PlaceHolder.jpg);
+    background-size: cover;
+    border: 5px solid var(--background-sideBar-borders);
+    margin-left: 5px;
+    margin: 10px 5px 10px 5;
+}
+
+.project4-text {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
     font-size: 20px;
     font-weight: bold;
 }
