@@ -73,7 +73,7 @@ header nav ul li a {
 }
 
 .about-me-sidebar {
-      flex: 0 1 10%;
+      flex: 0 1 12%;
       flex-wrap: wrap;
       border-right: 3px solid var(--background-sideBar-borders);
       margin-bottom: 10px;
@@ -98,11 +98,13 @@ header nav ul li a {
     padding: 3px;
 }
 
+/* work */
 .work-sidebar {
-    flex: 0 1 10%;
+    flex: 0 1 12%;
     flex-wrap: wrap;
     border-right: 3px solid var(--background-sideBar-borders);
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .work-sidebar-text {
@@ -113,6 +115,13 @@ header nav ul li a {
     margin: 0 10px 0 0; 
 }
 
+/* projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
 
 /* projects main image */
 .main-img {
@@ -141,7 +150,6 @@ header nav ul li a {
     width: 980px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
 } 
 
 .project1 {
@@ -231,4 +239,41 @@ header nav ul li a {
     background-color: var(--background-sideBar-borders);
     font-size: 20px;
     font-weight: bold;
+}
+
+.contact-me-sidebar {
+    flex: 0 1 12%;
+    flex-wrap: wrap;
+    border-right: 3px solid var(--background-sideBar-borders);
+    margin-right: 10px;
+}
+
+.contact-me-text {
+    color: var(--background-sideBar-borders);
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0 10px 0 0; 
+    
+}
+
+.contact-info nav ul {
+    flex: 0 1 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: var(--background-sideBar-borders);
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.contact-info nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
 }
