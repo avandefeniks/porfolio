@@ -74,9 +74,15 @@ header nav ul li a:hover {
 
 .content {
       display: flex;
-      flex-wrap: wrap;      
+      flex-wrap: wrap; 
+      border: 1-x solid black;     
 }
 
+.about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1-x solid black;
+}
 .about-me-sidebar {
       flex: 0 1 12%;
       flex-wrap: wrap;
@@ -126,6 +132,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     width: 80%;
     justify-content: flex-start;
+    border: 1-x solid black;
 }
 
 /* projects main image */
