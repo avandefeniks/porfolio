@@ -74,16 +74,15 @@ header nav ul li a:hover {
 
 .content {
       display: flex;
-      flex-wrap: wrap; 
-      border: 1-x solid black;     
+      flex-wrap: wrap;      
 }
 
 .about-me-content {
     display: flex;
-    border: 1-x solid black;
+    flex-wrap: wrap;
 }
 .about-me-sidebar {
-      flex: 0 1 12%;
+      flex: 0 1 18.5%;
       flex-wrap: wrap;
       border-right: 3px solid var(--background-sideBar-borders);
       margin-bottom: 10px;
@@ -99,7 +98,7 @@ header nav ul li a:hover {
 
 .about-me-paragraph {
     display: flex;
-    flex: 0 1 85%;
+    flex: 0 1 80%;
     flex-wrap: wrap;
     margin: 0 0 10px 10px;
 }
@@ -109,8 +108,12 @@ header nav ul li a:hover {
 }
 
 /* work */
+.work-content {
+    display: flex;
+}
+
 .work-sidebar {
-    flex: 0 1 12%;
+    flex: 0 1 18.5%;
     flex-wrap: wrap;
     border-right: 3px solid var(--background-sideBar-borders);
     margin-right: 10px;
@@ -130,8 +133,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    justify-content: flex-start;
-    border: 1-x solid black;
+    justify-content: center;
 }
 
 /* projects main image */
@@ -275,8 +277,14 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
+/* contact me */
+.contact-me-content {
+    display: flex;
+    flex: 1 1 100%;
+}
+
 .contact-me-sidebar {
-    flex: 0 1 12%;
+    flex: 0 1 20.1%;
     flex-wrap: wrap;
     border-right: 3px solid var(--background-sideBar-borders);
     margin-right: 10px;
@@ -291,12 +299,17 @@ header nav ul li a:hover {
     
 }
 
+.contact-info {
+    flex: 1 1 88%;
+    justify-content: center;
+}
+
 .contact-info nav ul {
-    flex: 0 1 90%;
+    flex: 1 1 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
     list-style: none;
     padding: 20px 20px;
     font-size: 20px;
