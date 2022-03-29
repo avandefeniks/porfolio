@@ -80,7 +80,6 @@ header nav ul li a:hover {
 
 .about-me-content {
     display: flex;
-    flex-wrap: wrap;
     border: 1-x solid black;
 }
 .about-me-sidebar {
