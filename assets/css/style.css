@@ -472,6 +472,7 @@ header nav ul li a:hover {
 
     .main-img {
         width: 100%;
+        object-fit: scale-down;
     }
 
     .contact-me-content {
