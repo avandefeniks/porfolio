@@ -1,7 +1,7 @@
 :root {
     --background-sideBar-borders: #2557b0; 
     --text: #e9ec0e;
-    --project-margins: 0 0 10px 0
+    --project-margins: 0 0 10px 0;
 }
 
 * {
@@ -22,16 +22,6 @@ header {
     background-color: var(--background-sideBar-borders);
 }
 
-/*
-.my-picture img {
-    height: 70px;
-}
-
-.div-h1 {
-    justify-content: center;
-    align-items: center;
-}*/
-
 header h1 {
     font-weight: bold;
     text-shadow: 0 0 10px rgba(0, 0, 0, .75);
@@ -43,13 +33,6 @@ header a {
     color: var(--text);
     text-decoration: none;
 }
-
-/*
-header nav {
-    width: 69%;
-    justify-content: flex-end;
-    padding: 10px;
-}*/
 
 header nav ul {
     display: flex;
@@ -333,13 +316,11 @@ header nav ul li a:hover {
     justify-content: space-evenly;
     align-items: flex-end;
     list-style: none;
-    padding: 20px 20px;
     font-size: 20px;
     color: var(--background-sideBar-borders);
     font-size: 24px;
     font-weight: bolder;
     text-align: right;
-    margin: 0 10px 0 0;
 }
 
 .contact-info nav ul li a {
@@ -402,6 +383,10 @@ header nav ul li a:hover {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
+    header nav ul {
+        font-size: 20px;
+    }
+
     .content {
         justify-content: center;
         width: 100%;
@@ -446,6 +431,10 @@ header nav ul li a:hover {
         text-align: center;
     }
 
+    .projects {
+        max-width: 360px;
+    }
+
     .work-content {
         display: flex;
         flex-wrap: wrap;
@@ -459,6 +448,27 @@ header nav ul li a:hover {
     .main-img {
         width: 100%;
         object-fit: scale-down;
+        opacity: 1;
+    }
+
+    .project-cards {
+        width: 80%;
+    }
+
+    .project2 {
+        opacity: 1;
+    }
+
+    .project3 {
+        opacity: 1;
+    }
+
+    .project4 {
+        opacity: 1;
+    }
+
+    .project5 {
+        opacity: 1;
     }
 
     .contact-me-content {
@@ -473,5 +483,10 @@ header nav ul li a:hover {
 
     .contact-me-text {
         text-align: center;
+        font-size: 25px;
+    }
+
+    .contact-info nav ul {
+        font-size: 19px;
     }
 }
