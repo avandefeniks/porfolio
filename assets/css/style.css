@@ -163,6 +163,17 @@ header nav ul li a:hover {
     opacity: 1;
 }
 
+/*.main-img-text {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    color: var(--text);
+    background-color: var(--background-sideBar-borders);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 1px;
+}*/
+
 /* project cards */
 .project-cards {
     width: 70%;
