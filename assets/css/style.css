@@ -159,7 +159,7 @@ header nav ul li a:hover {
     opacity: .75;
 }
 
-.main-img img:hover {
+.main-img:hover {
     opacity: 1;
 }
 
@@ -185,12 +185,10 @@ header nav ul li a:hover {
 .project2 {
     height: 110px;
     width: 484px;
-    /*height: 110px;
-    width: 45%;*/
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../images/PlaceHolder.jpg);
+    background-image: url(../images/TaskinatorPortfolio.jpg);
     background-size: cover;
     border: 5px solid var(--background-sideBar-borders);
     margin: 10px 5px;
@@ -219,7 +217,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../images/PlaceHolder.jpg);
+    background-image: url(../images/RunBuddyPortfolio.jpg);
     background-size: cover;
     border: 5px solid var(--background-sideBar-borders);
     margin: 10px 0 10px 5px;
