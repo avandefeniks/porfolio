@@ -188,7 +188,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../images/TaskinatorPortfolio.jpg);
+    background-image: url(../images/WeatherDashboard.jpg);
     background-size: cover;
     border: 5px solid var(--background-sideBar-borders);
     margin: 10px 5px;
@@ -217,7 +217,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../images/RunBuddyPortfolio.jpg);
+    background-image: url(../images/PlaceHolder.jpg);
     background-size: cover;
     border: 5px solid var(--background-sideBar-borders);
     margin: 10px 0 10px 5px;
